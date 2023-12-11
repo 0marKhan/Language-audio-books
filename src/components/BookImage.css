@@ -1,0 +1,9 @@
+img {
+  width: 32rem;
+}
+
+.book-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}

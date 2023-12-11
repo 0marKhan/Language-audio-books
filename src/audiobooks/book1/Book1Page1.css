@@ -1,0 +1,67 @@
+.page-container {
+  display: grid;
+  grid-template-rows: auto auto; /* Two rows of auto height */
+  grid-gap: 0;
+  overflow-y: hidden;
+}
+
+.image-and-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-next {
+  margin-left: 5%;
+}
+
+.arrow-prev {
+  margin-right: 5%;
+}
+
+.arrow {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* Style for Prev arrow */
+.arrow.prev {
+  /* Add styles for Prev arrow */
+}
+
+/* Style for Next arrow */
+.arrow.next {
+  /* Add styles for Next arrow */
+}
+
+.text-bars {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* One column */
+  grid-gap: 0;
+}
+
+.row1,
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns for row1 */
+  grid-gap: 0;
+}
+
+.row2 {
+  grid-template-columns: repeat(2, 1fr); /* Two columns for row2 */
+}
+
+.row1-bar {
+  height: 50px;
+}
+
+.row2-bar-1 {
+  height: 50px;
+}
+
+.row2-bar-2 {
+  height: 50px;
+}
